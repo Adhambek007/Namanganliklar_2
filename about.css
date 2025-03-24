@@ -59,9 +59,9 @@
     border: none;
 }
 
-.container_inner_button{
+.container_inner_box_button{
     padding: 11px 12px;
-    background-color: #FFFFFF;
+    background-color: white;
     border: none;
     border-radius: 5px;
 }
@@ -140,6 +140,7 @@
     width: 100%;
 }
 .info_box_title{
+    margin-top: 10px;
     font-size: 24px;
     font-weight: 500;
     line-height: 100%;
@@ -388,6 +389,17 @@
         box-shadow: none;
         margin-top: 20px;
     }
+    .info_inner_child_two{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .info_inner_child{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+  
 }
 @media screen and (max-width: 800px){
     .container{
